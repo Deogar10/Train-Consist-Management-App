@@ -3,20 +3,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 // Bogie class (same as UC7)
-class Bogie {
-    String name;
-    int capacity;
 
-    Bogie(String name, int capacity) {
-        this.name = name;
-        this.capacity = capacity;
-    }
 
-    @Override
-    public String toString() {
-        return name + " -> " + capacity + " seats";
-    }
-}
 
 public class FilterPassengerBogiesUsingStreams {
 
