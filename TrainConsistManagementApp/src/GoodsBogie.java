@@ -8,8 +8,15 @@ public class GoodsBogie {
         this.cargo = cargo;
     }
 
+    public GoodsBogie(String cargo) {
+        this.cargo = cargo;
+    }
+
     @Override
     public String toString() {
         return type + " -> " + cargo;
+    }
+
+    public void assignCargo(String petroleum) {
     }
 }
